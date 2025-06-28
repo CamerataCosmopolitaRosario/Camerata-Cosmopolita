@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Concierto Didáctico - Camerata Rosario</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Camerata Rosario presenta: <br>Concierto Didáctico de Invierno</h1>
+    <p>¡Una experiencia musical para toda la familia!</p>
+  </header>
+
+  <section id="sobre">
+    <h2>¿Qué es un Concierto Didáctico?</h2>
+    <p>
+      Es un espectáculo musical pensado para aprender y disfrutar. Músicos en escena, juegos sonoros, interacción con el público y mucho más.
+    </p>
+  </section>
+
+  <section id="info">
+    <h2>📍 Dónde y Cuándo</h2>
+    <p><strong>Fecha:</strong> 20 y 21 de julio de 2025</p>
+    <p><strong>Lugar:</strong> Centro Cultural Cosmopolita, Rosario</p>
+    <p><strong>Duración:</strong> 50 minutos</p>
+  </section>
+
+  <section id="entradas">
+    <h2>🎟️ Comprar Entradas</h2>
+    <form action="https://www.mercadopago.com.ar" method="POST">
+      <label for="name">Nombre completo:</label><br>
+      <input type="text" name="name" id="name" required><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" name="email" id="email" required><br><br>
+      <label for="cantidad">Cantidad de entradas:</label><br>
+      <input type="number" name="cantidad" id="cantidad" min="1" max="10" required><br><br>
+      <button type="submit">Pagar con MercadoPago</button>
+    </form>
+    <p>Después del pago, recibirás un comprobante por correo electrónico con tu código QR.</p>
+  </section>
+
+  <section id="faq">
+    <h2>❓ Preguntas Frecuentes</h2>
+    <p><strong>¿Pueden ir niños?</strong> ¡Sí! El concierto está pensado para todo público.</p>
+    <p><strong>¿Hay descuentos para grupos?</strong> Consultanos por mail.</p>
+  </section>
+
+  <footer>
+    <h3>📩 Contacto</h3>
+    <p>cameratarosario@gmail.com</p>
+    <p>@cameratarosario en Instagram y Facebook</p>
+  </footer>
+</body>
+</html>
